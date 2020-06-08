@@ -4,8 +4,8 @@
   "description": "A command line utility to try executing a shell command and retry if it fails or repeat even if it succeeds.",
   "main": "try.js",
   "preferGlobal": true,
-  "bin" : { 
-    "try" : "./try.js" 
+  "bin": {
+    "try": "./try.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,8 +31,7 @@
   },
   "homepage": "https://github.com/preethamvishy/try#readme",
   "dependencies": {
-    "commander": "^2.15.1",
-    "sleep": "^5.1.1",
-    "sync-exec": "^0.6.2"
+    "commander": "^2.20.3",
+    "sleep": "^6.1.0"
   }
 }
